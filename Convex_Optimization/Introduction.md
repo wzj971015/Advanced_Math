@@ -11,7 +11,7 @@ Firstly, it gives the basic idea of optimization, linear program and convex opti
 
 - objective function: minimize f0(x)
 - subjective to : fi(x) <= bi, for i:1 to m
-	where x = (x1, x2, ..., xm)
+  where x = (x1, x2, ..., xm)
 
 
 2. Linear Program:
@@ -26,11 +26,11 @@ Firstly, it gives the basic idea of optimization, linear program and convex opti
    The coefficient of every constraint function is **not** linear function.
 
 4. Convex Optimization
-	Convex Optimization is a general form of linear program which convert the equality in LR into inequality.
+  Convex Optimization is a general form of linear program which convert the equality in LR into inequality.
 
-	Hence, we get:
+  Hence, we get:
 
-	fi(ax+by) <= a * fi(x) + b * fi(y)
+  fi(ax+by) <= a * fi(x) + b * fi(y)
 
 ## Applications
 Convex Optimization has been widely uses in many fields. Here is some typical examples about it:
@@ -47,7 +47,47 @@ The algorithms vary from the form of our optimization problems. Meanwhile, it is
 
 ## Least-Squares Problems
 
+### Definition
+
+![](./img/1.2.1.1.png)
+
+The objective function is a quadratic function without any constraint functions. A is a k * n matrix while x is a n-vector.
+
+
+
+### Some expansion about LS
+
+-  **Weight Least Squares**
+
+![](./img/1.2.1.2.png)
+
+-  **Regularization**
+
+![](./img/1.2.1.3.png)
+
+ 	Regularization is one particular form of least-squares problem. Often, p is very small.
+
 ## Linear Programming
+
+### Definition
+
+
+
+![](./img/1.2.2.1.png)
+
+### Some expansion about LP
+
+- **Chebyshev approximation problem** 
+
+![](./img/1.2.2.2.png)
+
+Hence we can solve Chebyshev approximation problem as linear programming by this form:
+
+![](./img/1.2.2.3.png)
+
+
+
+
 
 
 
