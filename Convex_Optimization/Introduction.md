@@ -65,7 +65,7 @@ The objective function is a quadratic function without any constraint functions.
 
 ![Definition of Regularization](./img/1.2.1.3.png)
 
- 	Regularization is one particular form of least-squares problem. Often, p is very small.
+Regularization is one particular form of least-squares problem. Often, p is very small.
 
 ## Linear Programming
 
