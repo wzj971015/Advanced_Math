@@ -49,7 +49,7 @@ The algorithms vary from the form of our optimization problems. Meanwhile, it is
 
 ### Definition
 
-![](./img/1.2.1.1.png)
+![Definition of Least-Squares Problems](./img/1.2.1.1.png)
 
 The objective function is a quadratic function without any constraint functions. A is a k * n matrix while x is a n-vector.
 
@@ -59,11 +59,11 @@ The objective function is a quadratic function without any constraint functions.
 
 -  **Weight Least Squares**
 
-![](./img/1.2.1.2.png)
+![Definition of WLS](./img/1.2.1.2.png)
 
 -  **Regularization**
 
-![](./img/1.2.1.3.png)
+![Definition of Regularization](./img/1.2.1.3.png)
 
  	Regularization is one particular form of least-squares problem. Often, p is very small.
 
@@ -71,9 +71,7 @@ The objective function is a quadratic function without any constraint functions.
 
 ### Definition
 
-
-
-![](./img/1.2.2.1.png)
+![Definition of LR](./img/1.2.2.1.png)
 
 ### Some expansion about LP
 
@@ -86,9 +84,21 @@ Hence we can solve Chebyshev approximation problem as linear programming by this
 ![](./img/1.2.2.3.png)
 
 
+## Convex Optimization
+### Definition
 
+![Definition of Convex Optimization](./img/1.3.1.1.png)
 
+### Solving Convex Optimization
+It is not very difficult to solve the problem which we've recognized it as a convex problem. The key point is how to recognize and formulating one problem as a convex optimization. From now on, there are no technique can recognize and solve convex optimization. By the way, we can solve a convex problem by using interior-point methods.
 
+## Nonlinear Problem
+By far, no technique can be used to solve nonlinear problems perfectly. Every method used now has adapted some compromise. Typically, what need to be mentioned are local optimization and global optimization while local optimization is very fast to find the approximately optimal solution and global optimization can find the truly optimal solution losing efficency. Those two methods are widely used now based on the problem we study.
 
+## Role of Convex optimization in Nonconvex Problem
+- Initialization for local optimization
+- Convex heuristics fron nonconvex optimization
+- Bounds for global optimization
 
+That's the end of the part of Introduction.
 
